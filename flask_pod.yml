@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Pod
+metadata:
+ name: flask_app
+spec:
+ containers:
+   image: docker.io/dpivonka/flask-sample-one
